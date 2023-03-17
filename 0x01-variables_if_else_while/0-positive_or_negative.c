@@ -4,7 +4,7 @@
 /* more headers goes there */
 /**
  * main - A if else condition task
- * Return (0)
+ * Return (0) - (success)
  */
 
 /* betty style doc for function main goes there */
@@ -17,14 +17,17 @@ int main(void)
 	/* your code goes there */
 	printf("input n: ");
 	scanf("%d", &n);
-	if (n>0) {
-	printf("is positive\n");
+	if (n > 0)
+	{
+	printf("%d is positive\n");
 	}
-	else if (n==0){
-	printf("is zero\n");
+	else if (n == 0)
+	{
+	printf("%d is zero\n");
 	}
-	else {
-	printf("is negative\n");
+	else 
+	{
+	printf("%d is negative\n");
 	}
 	return (0);
 }
