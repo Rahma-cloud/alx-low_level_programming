@@ -2,10 +2,12 @@
 
 int main(void) {
     char letter = 'a';
-    
-    while (int i = 0; i < 26; i++) {
+    int i = 0;
+
+    while (i < 26) {
         putchar(letter);
         letter++;
+	i++;
     }
     
     putchar('\n');
