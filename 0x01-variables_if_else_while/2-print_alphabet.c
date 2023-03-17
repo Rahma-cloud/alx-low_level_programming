@@ -3,7 +3,7 @@
 int main(void) {
     char letter = 'a';
     
-    for (int i = 0; i < 26; i++) {
+    while (int i = 0; i < 26; i++) {
         putchar(letter);
         letter++;
     }
