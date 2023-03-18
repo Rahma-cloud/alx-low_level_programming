@@ -21,6 +21,6 @@ putchar(uppercase);
 uppercase++;
 i++;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
