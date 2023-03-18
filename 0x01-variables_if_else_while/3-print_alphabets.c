@@ -8,13 +8,13 @@ int main(void)
 char lowercase = 'a';
 char uppercase = 'A';
 int i = 0;
-while (i <= 52)
+while (i <= 26)
 {
 putchar(lowercase);
 lowercase++;
 i++;
 }
-while (i <= 52)
+while (i <= 26)
 {
 putchar(uppercase);
 uppercase++;
