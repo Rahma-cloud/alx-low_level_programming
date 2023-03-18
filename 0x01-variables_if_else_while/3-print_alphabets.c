@@ -14,7 +14,7 @@ putchar(lowercase);
 lowercase++;
 i++;
 }
-while (i <= 26)
+while (i == 0)
 {
 putchar(uppercase);
 uppercase++;
