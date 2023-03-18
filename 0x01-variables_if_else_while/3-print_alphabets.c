@@ -3,6 +3,7 @@
  * main - a program that prints both lowercase and uppercase letters
  * Return: (0)
  */
+
 int main(void)
 {
 char lowercase = 'a';
@@ -14,9 +15,6 @@ while (i <= 26)
 putchar(lowercase);
 lowercase++;
 i++;
-}
-while (i <= 26)
-{
 putchar(uppercase);
 uppercase++;
 i++;
