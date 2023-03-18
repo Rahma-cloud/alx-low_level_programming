@@ -3,7 +3,7 @@
  * main - an alphabet program
  * Return: (0)
  */
-int main(void) 
+int main(void)
 {
 char letter = 'a';
 int i = 0;
@@ -14,5 +14,5 @@ letter++;
 i++;
 }
 putchar('\n');
-return 0;
+return (0);
 }
