@@ -8,7 +8,8 @@ int main(void) {
     int i = 0;
 
     while (i < 26)
-    {	putchar(letter);
+    {	
+	putchar(letter);
 	letter++;
 	i++;
     }
