@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main - a program that prints alphabet
+ * print_alphabet - prints out the alphabet
+ * Return: (0).
  */
+
 void print_alphabet(void)
 {
 char letter = 'a';
