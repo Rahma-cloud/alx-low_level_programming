@@ -13,7 +13,9 @@ while (letter <= 'z')
 	_putchar(letter);
 	letter++;
 }
+print_alphabet();
 _putchar('\n');
 return(0);
 
 }
+
