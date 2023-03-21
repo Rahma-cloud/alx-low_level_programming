@@ -4,8 +4,7 @@
  *
  * Return: Always 0.
  */
-
-int main(void)
+void print_alphabet(void)
 {
 char letter = 'a';
 while (letter <= 'z')
@@ -13,9 +12,7 @@ while (letter <= 'z')
 	_putchar(letter);
 	letter++;
 }
-print_alphabet();
-_putchar('\n');
-return(0);
 
+_putchar ('\n');
 }
 
