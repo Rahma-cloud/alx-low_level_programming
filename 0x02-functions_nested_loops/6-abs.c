@@ -1,18 +1,18 @@
 #include "main.h"
 /**
  * _abs - function
- * @int:parameter
+ * @num:parameter
  * Return: (0)
  */
 
-int _abs(int)
+int _abs(int num)
 {
-	if (int < 0)
+	if (int >= 0)
 	{
-		return (-int);
+		return (num);
 	}
 	else
 	{
-		return (int);
+		return (num * -1);
 	}
 }
