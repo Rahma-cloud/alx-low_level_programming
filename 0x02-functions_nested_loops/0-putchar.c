@@ -12,7 +12,7 @@ int main(void)
 
 	while (i < 8)
 	{
-		_putchar(c[i]);
+		_putchar(name[i]);
 		i++;
 	}
 	_putchar("\n");
