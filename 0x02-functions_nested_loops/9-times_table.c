@@ -22,7 +22,7 @@ if (result <= 9)
 }
 else
 {
-	_putchr((result / 10) + '0');
+	_putchar((result / 10) + '0');
 }
 _putchar ((result % 10) + '0');
 }
