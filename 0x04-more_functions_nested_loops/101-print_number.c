@@ -20,7 +20,7 @@ void print_number(int n)
 	y /= 10;
 	if (y != 0)
 	{
-		print_number('y');
+		print_number(y);
 	}
 	_putchar((unsigned int) n % 10 + '0');
 }
