@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.sh>
+#include <stdio.h>
 
 /**
  * main - a functtion
