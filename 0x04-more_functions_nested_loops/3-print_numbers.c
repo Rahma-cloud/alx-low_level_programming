@@ -1,7 +1,6 @@
 #include "main.h"
-#include "_putchar.c"
+
 /**
- * _putchar - a function
  * print_numbers - a function
  * Return: always 0
  */
@@ -12,7 +11,7 @@ int i;
 
 for (i = 0; i <= 9; i++)
 {
-_putchar(i +'0');
+_putchar(i + '0');
 }
 
 _putchar('\n');
