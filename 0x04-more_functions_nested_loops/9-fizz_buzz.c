@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdio.sh>
 
 /**
  * main - a functtion
@@ -34,6 +34,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-	
 	return (0);
 }
