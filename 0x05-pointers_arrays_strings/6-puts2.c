@@ -16,7 +16,7 @@ void puts2(char *str)
 	}
 	while (bee < leo)
 	{
-		_putchar(str[ray]);
+		_putchar(str[bee]);
 		bee += 2;
 	}
 	_putchar('\n');
