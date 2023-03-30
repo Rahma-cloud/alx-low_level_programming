@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strcat - a function
@@ -17,7 +16,7 @@ char *_strcat(char *dest, char *src)
 	{
 		;
 	}
-	for (leo = 0; src[leo] != 0; leo++)
+	for (leo = 0; src[leo] != '\0'; leo++)
 	{
 		dest[ray] = src[leo];
 		ray++;
