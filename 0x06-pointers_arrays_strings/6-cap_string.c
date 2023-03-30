@@ -27,7 +27,6 @@ char *cap_string(char *ray)
 			}
 		}
 		i++;
-		}
-	return (ray);
 	}
+	return (ray);
 }
