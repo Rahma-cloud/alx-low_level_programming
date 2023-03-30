@@ -17,7 +17,7 @@ char *leet(char *leo)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			if (leo[a] == ola[]b)
+			if (leo[a] == ola[b])
 			{
 				leo[i] = ray[j];
 			}
