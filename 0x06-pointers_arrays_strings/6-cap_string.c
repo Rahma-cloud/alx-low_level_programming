@@ -13,7 +13,7 @@ char *cap_string(char *ray)
 	while (ray[i] != '\0')
 	{
 		if (ray[0] >= 97 && ray[0] <= 122)
-		{		{
+		{
 			ray[0] -= 32;
 		}
 		if (ray[i] == ' ' || ray[i] == '\t' || ray[i] == '\n'
