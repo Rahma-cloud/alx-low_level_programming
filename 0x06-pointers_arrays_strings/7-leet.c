@@ -14,7 +14,7 @@ char *leet(char *leo)
 	char ola[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 
 	while (leo[i])
-	
+	{
 		for (j = 0; j < 10; j++)
 		{
 			if (leo[i] == ola[j])
