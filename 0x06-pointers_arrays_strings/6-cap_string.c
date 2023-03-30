@@ -1,4 +1,4 @@
-#include <main.h>
+#include "maon.h"
 
 /**
  * cap_string - function
