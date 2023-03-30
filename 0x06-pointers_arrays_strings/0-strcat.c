@@ -10,12 +10,11 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int ray = 0;
+	int ray;
 	int leo;
 
-	while (dest[ray])
+	for (ray = 0; dest[ray] != '\0'; ray++)
 	{
-		ray++;
 	}
 	for (leo = 0; src[leo] != 0; leo++)
 	{
