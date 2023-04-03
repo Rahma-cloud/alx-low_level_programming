@@ -19,7 +19,7 @@ char *_strchr(char *s, char c)
 	}
 	if (*S == c)
 	{
-		return s;
+		return (s);
 	}
 	return (NULL);
 }
