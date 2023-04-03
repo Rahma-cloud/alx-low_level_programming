@@ -23,11 +23,11 @@ unsigned int _strspn(char *s, char *accept)
 			}
 			ray++;
 		}
-	if (*ray == '\0')
-	{
-		return (m);
-	}
-	s++;
+		if (*ray == '\0')
+		{
+			return (m);
+		}
+		s++;
 	}
 	return (m);
 }
