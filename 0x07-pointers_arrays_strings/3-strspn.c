@@ -4,7 +4,7 @@
  * _strspn - a function
  * @s: param
  * @accept: param
- * Return: 0
+ * Return: o
  */
 
 unsigned int _strspn(char *s, char *accept)
