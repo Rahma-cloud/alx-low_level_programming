@@ -9,25 +9,21 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int m = 0;
+	int m = 0;
+	int n = 0;
+	int o = 0;
 
-	while (*s != '\0')
+	while (s[m] != 32)
 	{
-		char *ray = accept;
-
-		while (*ray != '\0')
+		while (accept[n] != '\0')
 		{
-			if (*s == *ray)
+			if (s[m] == accept[n])
 			{
-				m++;
+				o++;
 			}
-			ray++;
+			n++;
 		}
-		if (*ray == '\0')
-		{
-			return (m);
-		}
-		s++;
+		m++;
 	}
-	return (0);
+	return (o);
 }
