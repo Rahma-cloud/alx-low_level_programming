@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strchr - a function
+ * _strstr - a function
  * @haystack: param
  * @needle: param
  * Return: 0
@@ -9,19 +9,19 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i;
-	int j;
-	int k = 0;
-
-	for (i = 0; haystack[i] != 'neeedle'; i++)
+	for (; *haystack != '\0'; haystack++)
 	{
-		for (j = 0; needle[j] != '\0'; j++)
+		char *first = haystack;
+		char *second = needle;
+
+		for (; *first == *second && *second != '\0'; first++, second++)
 		{
-			if (haystack[i] == needle[j])
-			{
-				k++;
-			}
+			;
 		}
+			if (*second == '\0')
+			{
+				return (haystack);
+			}
 	}
-	return(k);
+	return (0);
 }
