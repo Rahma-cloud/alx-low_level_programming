@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * set-string - a function
+ * print_diagsums - a function
  * @a: param
  * @size: param
  */
