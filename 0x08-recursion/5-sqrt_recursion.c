@@ -12,7 +12,7 @@ int _st_recursion(int m, int n)
 	int x;
 
 	x = (m + n / m) / 2;
-	if (m * m <= n && ((m + 1) * (m + 1)) > n)
+	if (m * m <= n && (m + 1) * (m + 1) > n)
 	{
 		return (m);
 	}
