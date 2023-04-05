@@ -16,10 +16,6 @@ int _st_recursion(int m, int n)
 	{
 		return (n);
 	}
-	else if (x == 0)
-	{
-		return (1);
-	}
 	else
 	{
 		return (-1);
