@@ -22,7 +22,7 @@ int _st_recursion(int m, int n)
 	}
 	else
 	{
-		return (_st_recursion(m, x));
+		return (-1);
 	}
 }
 
