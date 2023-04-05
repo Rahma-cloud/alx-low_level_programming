@@ -14,14 +14,7 @@ int _st_recursion(int m, int n)
 	x = (m + n / m) / 2;
 	if (m * m <= n && ((m + 1) * (m + 1)) > n)
 	{
-		if (m != abs(m))
-		{
-			return (-1);
-		}
-		else
-		{
-			return (m);
-		}
+		return (m);
 	}
 	else
 	{
@@ -37,5 +30,13 @@ int _st_recursion(int m, int n)
 
 int _sqrt_recursion(int n)
 {
+	if (n == 1)
+	{
+		return (1);
+	}
+	if (n < 1)
+	{
+		return (-1);
+	}
 	return (_st_recursion(1, n));
 }
