@@ -14,7 +14,7 @@ int _st_recursion(int m, int n)
 	x = 0.5 * (n + m / n);
 	if (x == n)
 	{
-		return (-1);
+		return (n);
 	}
 	else if (x == 0)
 	{
