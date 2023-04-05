@@ -2,6 +2,7 @@
 
 /**
  * _sqrt_recursion - a function
+ * _pow_recursion - a function
  * @n: param
  * Return: 0
  */
