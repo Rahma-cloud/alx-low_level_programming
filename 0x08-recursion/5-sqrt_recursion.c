@@ -7,9 +7,9 @@
  * Return: 0
  */
 
-int _st_recursion(int m, int n)
+int _st_recursion(long m, long n)
 {
-	int x;
+	long x;
 
 	x = (m + n / m) / 2;
 	if (m * m <= n && (m + 1) * (m + 1) > n)
