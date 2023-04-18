@@ -1,14 +1,20 @@
+#include <stdlib.h>
+#include "dog.h"
 /**
- * struct dog - a function
+ * init_dog - a function
+ * @d: param
  * @name: param
  * @age: param
  * @owner: param
  * Return: 0
  */
 
-struct dog
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	char *name;
-	float age;
-	char *owner;
+	if (d != NULL)
+	{
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
 }
