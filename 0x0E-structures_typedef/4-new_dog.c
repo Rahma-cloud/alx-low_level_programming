@@ -31,7 +31,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (!((*dee).name) || !((*dee).owner))
 	{
 		free((*dee).owner);
-		free((*dee).name;
+		free((*dee).name);
 		free(dee);
 		return (NULL);
 	}
@@ -39,7 +39,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		(*dee).name[z] = name[z];
 	(*dee).name[z] = '\0';
 	for (z = 0; z < y; z++)
-		(*dee).owner[z] owner[z];
+		(*dee).owner[z] = owner[z];
 	(*dee).owner[z] = '\0';
 	if (age < 0)
 	{
