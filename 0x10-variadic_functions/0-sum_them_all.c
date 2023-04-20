@@ -22,10 +22,10 @@ int sum_them_all(const unsigned int n, ...)
 		va_start(args, n);
 		for (x = 0; x < n; x++)
 		{
-			add = add + va_args(args, int);
+			add = add + va_arg(args, int);
 		}
 		va_end(args);
-		return (sum);
+		return (add);
 	}
 
 }
