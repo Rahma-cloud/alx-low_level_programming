@@ -31,7 +31,6 @@ int op_sub(int a, int b)
 /**
  * op_mul - a function
  * @a: param
- * @b: param
  * Return: 0
  */
 
