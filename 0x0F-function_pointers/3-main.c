@@ -10,7 +10,7 @@
  * Return: 0
  */
 
-int main(int_attribute((_unused_))argc, char *argv[])
+int main(int_attribute((unused_))argc, char *argv[])
 {
 	int num1, num2;
 	char *op;
@@ -34,4 +34,5 @@ int main(int_attribute((_unused_))argc, char *argv[])
 		exit(100);
 	}
 	printf("%d\n", get_op_func(op)(num1, num2));
+	return (0);
 }
