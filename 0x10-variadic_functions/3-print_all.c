@@ -39,6 +39,7 @@ void print_all(const char * const format, ...)
 	va_end(args);
 	printf("\n");
 }
+
 /**
  * char_print - a function that prints character
  * @c: int parameter to print
