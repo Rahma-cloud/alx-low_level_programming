@@ -30,7 +30,7 @@ void print_all(const char * const format, ...)
 			{
 				printf("%s", separator);
 				(fmt_specs[j]).fmt_func_ptr(args);
-				separator = ",";
+				separator = ", ";
 			}
 			j++;
 		}
