@@ -41,7 +41,7 @@ void print_all(const char * const format, ...)
 }
 
 /**
- * char_print - a function that prints character
+ * char_print - prints character
  * @c: int parameter to print
  * char is promoted to int
  */
@@ -62,7 +62,7 @@ void int_print(va_list i)
 }
 
 /**
- * float_print - a function
+ * float_print - floating point integer
  * @f: double param
  * float is promoted
  */
