@@ -1,14 +1,14 @@
 #include "lists.h"
 
 /**
- * print_list - a function
+ * list_len - a function
  * @h: a parameter
  * Return: 0
  */
 
-size_t print_list(const list_t *h)
+size_t list_len(const list_t *h)
 {
-	int num = 0;
+	int num;
 
 	while (h != NULL)
 	{
