@@ -1,3 +1,4 @@
+#include "lists.h"
 
 /**
  * add_node_end - singly list node add function
@@ -31,7 +32,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		{
 			tail = tail->next;
 		}
-		tail->next = new
+		tail->next = me;
 	}
 	return (me);
 }
