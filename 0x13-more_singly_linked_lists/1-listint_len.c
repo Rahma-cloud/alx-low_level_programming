@@ -6,13 +6,14 @@
  * Return: 0
  */
 
-size_t list_len(const list_t *h)
+size_t listint_len(const listint_t *h)
 {
 	int cul;
 
 	cul = 0;
 	while (h != NULL)
 	{
+
 		cul++;
 		h = h->next;
 	}
