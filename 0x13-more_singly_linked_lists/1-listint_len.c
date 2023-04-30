@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * list_len - a function
+ * listint_len - a function
  * @h: param
  * Return: 0
  */
