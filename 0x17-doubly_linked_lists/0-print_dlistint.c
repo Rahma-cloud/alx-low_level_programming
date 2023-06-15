@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/*
+/**
  * print_dlistint - a function
  * @h: parameter
  * Return: 0
