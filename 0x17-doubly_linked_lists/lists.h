@@ -10,9 +10,10 @@
  * @next: parameter that points to the next node
  *
  * Description: this is for doubly linked lists
+ *
  */
 
-tydef struct dlistint_s
+typedef struct dlistint_s
 {
 	int n;
 	struct dlistint_s *prev;
@@ -21,4 +22,4 @@ tydef struct dlistint_s
 
 size_t print_dlistint(const dlistint_t *h);
 
-#end /* LISTS_H */
+#endif /* LISTS_H */
