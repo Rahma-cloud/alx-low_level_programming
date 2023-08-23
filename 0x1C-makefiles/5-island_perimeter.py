@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+"""function called island perimeter"""
+
 
 def island_perimeter(grid):
+""" function definition"""
     perimeter = 0
 
     rows = len(grid)
